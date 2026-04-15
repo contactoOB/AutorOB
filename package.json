@@ -1,11 +1,16 @@
 {
-  "name": "mi-app",
+  "name": "autorob-webservice",
   "version": "1.0.0",
+  "description": "Servicio web con Node y Express para Render",
+  "main": "server.js",
   "scripts": {
-    "build": "ng build --prod",
+    "build": "echo 'No build step required'",
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
