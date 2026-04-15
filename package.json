@@ -1,14 +1,15 @@
 {
-  "name": "autorob-webservice",
+  "name": "autorob-spa",
   "version": "1.0.0",
-  "description": "Servicio web con Node y Express para Render",
+  "description": "Aplicación SPA servida con Node y Express en Render",
   "main": "server.js",
   "scripts": {
-    "build": "echo 'No build step required'",
+    "build": "ng build --configuration production",
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "@angular/cli": "^17.3.0"
   },
   "engines": {
     "node": "22.x"
